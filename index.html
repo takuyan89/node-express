@@ -1,0 +1,35 @@
+<!DOCTYPE html>
+<html lang="jp">
+    <head>
+        <meta charset="UTF-8" />
+        <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+        <title>the first time</title>
+    </head>
+    <body>
+        <h1>this is the season</h1>
+        <p>
+            Lorem ipsum dolor sit amet consectetur, adipisicing elit. Recusandae
+            quibusdam, eveniet corrupti in quisquam vero hic dolore sint
+            voluptatibus, non commodi officia. Necessitatibus ea obcaecati odit
+            veniam omnis molestiae modi.
+        </p>
+        <form action="/autumn" method="POST">
+            <input type="text" name="activity" />
+            <button type="submit">投稿</button>
+        </form>
+        <form action="/update" method="POST">
+            <input type="text" name="updatedActivity" />
+            <button type="submit">change</button>
+        </form>
+        <form action="/delete" method="POST">
+            <input type="radio" id="one" name="number" value="0" />
+            <label for="one">one</label>
+            <input type="radio" id="two" name="number" value="1" />
+            <label for="two">two</label>
+            <input type="radio" id="three" name="number" value="2" />
+            <label for="three">three</label>
+            <br />
+            <button type="submit">delete</button>
+        </form>
+    </body>
+</html>
